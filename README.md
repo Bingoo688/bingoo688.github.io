@@ -1,0 +1,1 @@
+# bingoo688.github.io
