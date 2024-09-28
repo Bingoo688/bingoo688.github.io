@@ -184,7 +184,7 @@
 
     function getData() {
         $.ajax({
-            url: 'http://dns.youfuyun.cn/qrcode/getData.php',
+            url: 'https://dns.youfuyun.cn/qrcode/getData.php',
             type: 'POST',
             data: {
                 key: getUrlParam("key"),
@@ -207,7 +207,7 @@
     function longPress() {
         timeOutEvent = 0;
         $.ajax({
-            url: 'http://dns.youfuyun.cn/qrcode/longPress.php',
+            url: 'https://dns.youfuyun.cn/qrcode/longPress.php',
             type: 'POST',
             data: {
                 token: window.token,
