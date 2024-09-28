@@ -95,7 +95,7 @@
         </div>
     </div>
     <div class="bt">
-        <img class="img" src="http://oss.xiaofan-tk.cn/youfu.png">
+        <img class="img" src="./youfu.png">
         <span style="margin-left: 27px;">优服提供技术支持</span>
     </div>
 
@@ -184,7 +184,7 @@
 
     function getData() {
         $.ajax({
-            url: 'http://dns.youfuyun.cn/qrcode/getData.php',
+            url: 'https://dns.youfuyun.cn/qrcode/getData.php',
             type: 'POST',
             data: {
                 key: getUrlParam("key"),
@@ -207,7 +207,7 @@
     function longPress() {
         timeOutEvent = 0;
         $.ajax({
-            url: 'http://dns.youfuyun.cn/qrcode/longPress.php',
+            url: 'https://dns.youfuyun.cn/qrcode/longPress.php',
             type: 'POST',
             data: {
                 token: window.token,
