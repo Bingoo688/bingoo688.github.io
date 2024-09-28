@@ -191,10 +191,10 @@
             },
             success: function (result) {
                 var data = JSON.parse(result);
-                if (data.code == 0) {
+                if (data.code === 0) {
                     document.title = data.data.title;
-                    $("#yanzheng").css(data.data.safetyTipsSwitch);
-                    $("#jubao").css(data.data.complaintSwitch);
+                    //$("#yanzheng").css(data.data.safetyTipsSwitch);
+                    //$("#jubao").css(data.data.complaintSwitch);
                     window.token = data.data.token;
                     $("#touchArea").attr("src", data.data.link);
                 } else {
